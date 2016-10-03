@@ -1,0 +1,10 @@
+{
+  "problems" : [
+    {
+      "title" : "Move Zeroes In Array",
+      "description" : "Given an array of numbers, write a function to move all <mark>0</mark>'s to the end of it while maintaining the relative order of the non-zero elements. For example, given <mark>nums = [0, 1, 0, 3, 12]</mark>, after calling your function, <mark>nums</mark> should be <mark>[1, 3, 12, 0, 0]</mark>. Do it in-place. Minimize the total number of operations.",
+      "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
+      "solutions" : ["js/move-zeroes.js"]
+    }
+  ]
+}
