@@ -1,13 +1,22 @@
 import { HttpModule } from '@angular/http';
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import {SelectModule} from 'angular2-select';
 
-import RootComponent from './app.rootComponent.js';
-import ProblemComponent from './app.problemComponent.js';
+import RootComponent from './components/app.rootComponent';
+import ProblemComponent from './components/problem/app.problemComponent';
+import ModalComponent from './components/modal/modal.component';
+import SwitcherComponent from './components/filter/switcher/switcher.component';
+import FilterComponent from './components/filter/filter.component';
 
 var AppModule = NgModule({
-	imports: [ BrowserModule, HttpModule],
-	declarations: [RootComponent, ProblemComponent],
+	imports: [ BrowserModule, HttpModule, SelectModule],
+	declarations: [
+		RootComponent,
+		ProblemComponent,
+		ModalComponent,
+		SwitcherComponent,
+		FilterComponent],
 	bootstrap: [ RootComponent ]
 })
 .Class({

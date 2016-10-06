@@ -1,0 +1,24 @@
+{
+  "tags" : [
+    {
+      "value" : "arrays",
+      "label" : "Arrays"
+    },
+    {
+      "value" : "linear-time",
+      "label" : "Linear Time"
+    },
+    {
+      "value" : "in-place",
+      "label" : "In Place"
+    },
+    {
+      "value" : "two-pointers",
+      "label" : "Two Pointers"
+    },
+    {
+      "value" : "recursive",
+      "label" : "Recursive"
+    }
+  ]
+}
