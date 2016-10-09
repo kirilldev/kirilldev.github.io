@@ -1,10 +1,60 @@
 {
   "problems" : [
     {
+	  "id" : 1,
       "title" : "Move Zeroes In Array",
       "description" : "Given an array of numbers, write a function to move all <mark>0</mark>'s to the end of it while maintaining the relative order of the non-zero elements. For example, given <mark>nums = [0, 1, 0, 3, 12]</mark>, after calling your function, <mark>nums</mark> should be <mark>[1, 3, 12, 0, 0]</mark>. Do it in-place. Minimize the total number of operations.",
       "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
       "solutions" : ["js/move-zeroes.js"]
-    }
+    },
+	{
+	  "id" : 2,
+	  "title" : "Reverse Array Order",
+      "description" : "Given an array of numbers, write a function to reverse an order of elements in it. For example, given <mark>nums = [1, 2, 3, 4, 5]</mark>, after calling your function, <mark>nums</mark> should be <mark>[5, 4, 3, 2, 1]</mark>. Do it in-place.",
+	  "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
+	  "solutions" : ["js/reverse-array-order.js"]
+	},
+	{
+      "id" : 3,
+	  "title" : "Reverse Word Order",
+	  "description" : "Do it in place.",
+	  "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
+	  "solutions" : ["js/reverse-word-order.js"]
+	},
+	{
+      "id" : 4,
+	  "title" : "Implement Quicksort",
+	  "description" : "Given array of nums, sort it using quicksort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
+	  "tags" : ["arrays", "linearithmic-time", "in-place", "two-pointers", "recursive"],
+	  "solutions" : ["js/implement-quicksort.js"]
+	},
+	{
+      "id" : 5,
+	  "title" : "Implement Merge Sort",
+	  "description" : "Given array of nums, sort it using merge sort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
+	  "tags" : ["arrays", "linearithmic-time", "two-pointers", "recursive"],
+	  "solutions" : ["js/implement-quicksort.js"]
+	},
+	{
+      "id" : 6,
+	  "title" : "Find Missing Number In a Sorted Array",
+	  "description" : "Given an array. For example, given <mark>nums = [1, 2, 3, 5]</mark>",
+	  "tags" : ["arrays", "logarithmic-time", "in-place", "two-pointers"],
+	  "solutions" : ["js/reverse-array-order.js"]
+	},
+	{
+      "id" : 7,
+	  "title" : "Find Sum of all left leaves in a Binary Tree",
+	  "description" : "Given a binary tree, find sum of all left leaves in it. For example, sum of all left leaves of the tree on the <a href=\"src/img/BST.svg\">image</a> is 5 + 23 = 27.",
+	  "tags" : ["tree", "linear-time", "recursive"],
+	  "solutions" : ["js/find-sum-of-left-tree-leaves.js"]
+	},
+	{
+      "id" : 8,
+	  "title" : "Find Sum of All Nodes at given depth of a Binary Tree",
+	  "description" : "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/BST.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
+	  "tags" : ["tree"],
+	  "solutions" : ["js/find-sum-of-nodes-at-depth.js"]
+	}
   ]
 }

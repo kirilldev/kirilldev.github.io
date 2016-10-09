@@ -1,11 +1,9 @@
 import {Component} from '@angular/core';
-import ProblemComponent from './app.problemComponent.js'
-import ProblemStorageService from './problemStorage.service.js'
+import ProblemStorageService from './../services/problemStorage.service';
 
 var RootComponent = Component({
 		selector: 'app-main',
-		templateUrl: 'src/app/rootHtml.html',
-		directives: [ProblemComponent],
+		templateUrl: 'src/app/components/rootHtml.html',
 		providers: [ProblemStorageService]
 	}).Class({
 		constructor: [ProblemStorageService, function(ProblemStorageService) {

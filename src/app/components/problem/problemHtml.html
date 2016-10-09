@@ -1,0 +1,7 @@
+<div class="Problem">
+    <h3 class="clickable Problem__name" title="click to see the solution" (click)="showSolution()">
+        {{problem.title}}
+    </h3>
+    <p (click)="check($event)" [innerHTML]="problem.description"></p>
+    <modal [onClose]="close" [headerText]="problem.title" [modalBody]="showModal" *ngIf="showModal"></modal>
+</div>

@@ -1,0 +1,11 @@
+<div class="Modal">
+	<div class="Modal__content">
+		<div class="Modal__header">
+			<span class="Modal__close" (click)="onClose()">×</span>
+			<h3 class="Modal__header-txt">{{headerText}}</h3>
+		</div>
+		<div class="Modal__body" [style.height]="modalBodyHeight" [innerHtml]="modalBody">
+		</div>
+		<div class="Modal__footer"></div>
+	</div>
+</div>
