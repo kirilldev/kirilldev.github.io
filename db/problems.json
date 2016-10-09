@@ -45,14 +45,14 @@
 	{
       "id" : 7,
 	  "title" : "Find Sum of all left leaves in a Binary Tree",
-	  "description" : "Given a binary tree, find sum of all left leaves in it. For example, sum of all left leaves of the tree on the <a href=\"src/img/BST.svg\">image</a> is 5 + 23 = 27.",
+	  "description" : "Given a binary tree, find sum of all left leaves in it. For example, sum of all left leaves of the tree on the <a href=\"src/img/bst.svg\">image</a> is 5 + 23 = 27.",
 	  "tags" : ["tree", "linear-time", "recursive"],
 	  "solutions" : ["js/find-sum-of-left-tree-leaves.js"]
 	},
 	{
       "id" : 8,
 	  "title" : "Find Sum of All Nodes at given depth of a Binary Tree",
-	  "description" : "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/BST.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
+	  "description" : "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/bst.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
 	  "tags" : ["tree"],
 	  "solutions" : ["js/find-sum-of-nodes-at-depth.js"]
 	}
