@@ -55,6 +55,13 @@
 	  "description" : "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/bst.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
 	  "tags" : ["tree"],
 	  "solutions" : ["js/find-sum-of-nodes-at-depth.js"]
+	},
+	{
+      "id" : 9,
+	  "title" : "Check If two Binary Tree are Identical",
+	  "description" : "Given heads oof two Binary Trees, check if trees are identical. Two trees are identical when they have same data and arrangement of data is also same.",
+	  "tags" : ["tree"],
+	  "solutions" : ["js/is-trees-are-identical.js"]
 	}
   ]
 }
