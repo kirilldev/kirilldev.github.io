@@ -62,6 +62,13 @@
 	  "description" : "Given heads oof two Binary Trees, check if trees are identical. Two trees are identical when they have same data and arrangement of data is also same.",
 	  "tags" : ["tree"],
 	  "solutions" : ["js/is-trees-are-identical.js"]
+	},
+	{
+      "id" : 10,
+	  "title" : "Find Longest Increasing Subsequence in Array",
+	  "description" : "find",
+	  "tags" : ["arrays", "dp"],
+	  "solutions" : ["js/find-longest-increasing-subsequence-in-array.js"]
 	}
   ]
 }
