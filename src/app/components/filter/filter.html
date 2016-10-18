@@ -2,7 +2,10 @@
     <div style="width: 100%; margin-right: 15px">
         <ng-select [options]="options" multiple="true" placeholder="Filter by tags"></ng-select>
     </div>
-    <div style="padding-top: 5px">
-        <switcher></switcher>
+    <div class="Switcher">
+		<span *ngFor="let opt of sortOptions" class="Switcher__btn"
+		      (click)="reorder(opt)" [ngClass]="{'active': opt === sortOrder.name}">
+			{{opt}}&nbsp;<i *ngIf="opt === sortOrder.name">{{sortMarker}}</i>
+		</span>
     </div>
 </div>

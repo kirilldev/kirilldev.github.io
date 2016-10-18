@@ -8,6 +8,9 @@ var RootComponent = Component({
 	}).Class({
 		constructor: [ProblemStorageService, function(ProblemStorageService) {
 			this.problems = [];
+			this.sortOrderChanged = function(e) {
+				console.log(e)
+			};
 			ProblemStorageService.getProblems().subscribe(p => this.problems = p);
 		}]
 	});

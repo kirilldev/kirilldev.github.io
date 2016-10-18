@@ -6,7 +6,6 @@ import {SelectModule} from 'angular2-select';
 import RootComponent from './components/app.rootComponent';
 import ProblemComponent from './components/problem/app.problemComponent';
 import ModalComponent from './components/modal/modal.component';
-import SwitcherComponent from './components/filter/switcher/switcher.component';
 import FilterComponent from './components/filter/filter.component';
 
 var AppModule = NgModule({
@@ -15,7 +14,6 @@ var AppModule = NgModule({
 		RootComponent,
 		ProblemComponent,
 		ModalComponent,
-		SwitcherComponent,
 		FilterComponent],
 	bootstrap: [ RootComponent ]
 })
