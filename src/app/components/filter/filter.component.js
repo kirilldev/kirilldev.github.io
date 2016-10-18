@@ -15,12 +15,16 @@ var FilterComponent =
 				this.sortMarker = '▲';
 				this.sortOptions = ['date', 'name'];
 				this.sortOrder = {
-					name : 'name',
+					name : 'date',
 					isAsc : true
 				};
 				
                 problemStorage.getAvailibleTags().subscribe(o => this.options = o);
             }],
+
+			ngOnInit : function() {
+				this.sortOrderChanged(this.sortOrder);
+			},
 
 			reorder : function(byProp) {
 				if (byProp === this.sortOrder.name) {

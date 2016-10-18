@@ -7,11 +7,31 @@ var RootComponent = Component({
 		providers: [ProblemStorageService]
 	}).Class({
 		constructor: [ProblemStorageService, function(ProblemStorageService) {
-			this.problems = [];
-			this.sortOrderChanged = function(e) {
-				console.log(e)
+			this.allProblems = [];
+			this.visibleProblems = [];
+			this.sortOrder = null;
+
+			this.sortOrderChanged = (order) => {
+				this.sortOrder = order;
+
+				this.visibleProblems.sort((a,b) => {
+					let res;
+
+					if (order.name === 'name') {
+						res =  a.title === b.title ? 0 : (a.title > b.title ? 1 : -1);
+					} else if (order.name === 'date') {
+						res =  b.id - a.id;
+					}
+
+					return order.isAsc ? res : res * -1;
+				});
 			};
-			ProblemStorageService.getProblems().subscribe(p => this.problems = p);
+
+			ProblemStorageService.getProblems().subscribe(p => {
+				this.allProblems = p;
+				this.visibleProblems = p;
+				this.sortOrderChanged(this.sortOrder);
+			});
 		}]
 	});
 
