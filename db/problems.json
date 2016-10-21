@@ -66,9 +66,23 @@
 	{
       "id" : 10,
 	  "title" : "Find Longest Increasing Subsequence in Array",
-	  "description" : "find",
-	  "tags" : ["arrays", "dp"],
+	  "description" : "Given an array of numbers, find the longest increasing sub-subsequence in which all elements will be in the sorted order. For example, given [3, 4, -1, 0, 6, 2, 3] the longest increasing subsequence will be [-1, 0, 2, 3]",
+	  "tags" : ["arrays"],
 	  "solutions" : ["js/find-longest-increasing-subsequence-in-array.js"]
+	},
+	{
+	  "id" : 11,
+	  "title" : "Find All Possible Combinations",
+	  "description" : "Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.",
+	  "tags" : ["arrays"],
+	  "solutions" : ["js/find-all-possible-combinations.js"]
+	},
+	{
+	  "id" : 12,
+	  "title" : "Convert Sorted Array to Binary Search Tree",
+	  "description" : "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.",
+	  "tags" : ["arrays", "tree"],
+	  "solutions" : ["js/create-bst-from-sorted-array.js"]
 	}
   ]
 }
