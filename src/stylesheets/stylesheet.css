@@ -228,6 +228,12 @@ display: flex;
 	animation-duration: 0.4s
 }
 
+@media screen and (max-width: 640px) {
+	.Modal__content {
+		width: 98%;
+	}
+}
+
 .Modal__close {
 	color: #aaa;
 	float: right;
