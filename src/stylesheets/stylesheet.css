@@ -111,7 +111,8 @@ a {
   background: #f9d6dd;
 }
 .main-content p {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 /*.main-content code {
   padding: 2px 4px;
   font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
@@ -149,14 +150,14 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .main-content {
-    padding: 2rem 4rem;
+    padding: 0 4rem;
     font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 42em) {
   .main-content {
-    padding: 2rem 1rem;
+    padding: 0 1rem;
     font-size: 1rem;
   }
 }
@@ -290,8 +291,24 @@ display: flex;
     background-color: #eff0f1;
     padding: 15px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
+@media (max-width:400px){
+    .Filter {
+        flex-direction: column;
+    }
+
+    .Switcher {
+        margin-top: 0.5em;
+    }
+
+    .Switcher__btn {
+        width: 50%;
+        text-align: center
+    }
+}
+
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML

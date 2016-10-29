@@ -40,7 +40,7 @@
 	  "title" : "Find Missing Number In a Sorted Array",
 	  "description" : "Given an array. For example, given <mark>nums = [1, 2, 3, 5]</mark>",
 	  "tags" : ["arrays", "logarithmic-time", "in-place", "two-pointers"],
-	  "solutions" : ["js/reverse-array-order.js"]
+	  "solutions" : ["js/find-absent-number-in-range.js"]
 	},
 	{
       "id" : 7,
