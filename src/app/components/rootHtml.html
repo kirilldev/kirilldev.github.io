@@ -1,2 +1,10 @@
-<filter [sortOrderChanged]="sortOrderChanged"></filter>
-<problem *ngFor="let data of visibleProblems" [problem]="data"></problem>
+<h3 *ngIf="notFoundProblem" class="Alert">
+    Problem With Id == {{notFoundProblem}} Doesn't Exist!
+</h3>
+
+<problem *ngIf="selectedProblem" [problem]="selectedProblem"></problem>
+
+<div *ngIf="!selectedProblem && !notFoundProblem">
+    <filter [sortOrderChanged]="sortOrderChanged"></filter>
+    <problem *ngFor="let data of visibleProblems" [problem]="data"></problem>
+</div>
