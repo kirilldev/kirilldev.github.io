@@ -90,6 +90,14 @@
 	  "description" : "Given the string, find majority character. A majority character in a string of size n is an character that appears more than n/2 times.",
 	  "tags" : ["arrays", "search", "linear-time"],
 	  "solutions" : ["js/find-majority-character.js"]
+	},
+	{
+	  "id" : 14,
+	  "title" : "Minimum Size Subarray Sum",
+	  "description" : "Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.For example, given the array <mark>[2,3,1,2,4,3]</mark> and s = 7,the subarray <mark>[4,3]</mark> has the minimal length under the problem constraint.",
+	  "tags" : ["arrays", "two-pointers", "linear-time"],
+	  "solutions" : ["js/minimum-size-contigious-subarray"]
+		
 	}
   ]
 }
