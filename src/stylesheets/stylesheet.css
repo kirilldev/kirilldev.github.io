@@ -309,6 +309,14 @@ display: flex;
     }
 }
 
+.Alert {
+    text-align: center;
+    background-color: rgba(233, 98, 98, 0.49);
+    color: red;
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: normal;
+}
 
 /**
  * prism.js default theme for JavaScript, CSS and HTML
