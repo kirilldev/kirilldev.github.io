@@ -98,6 +98,13 @@
 	  "tags" : ["arrays", "two-pointers", "linear-time"],
 	  "solutions" : ["js/minimum-size-contigious-subarray.js"]
 		
+	},
+	{
+	  "id" : 15,
+	  "title" : "Mythical Hydra Button",
+	  "description" : "Create a button that is destroyed by clicking it, but two new buttons are created in it's place.",
+	  "tags" : ["frontend"],
+	  "solutions" : ["js/mythical-hudra.js"]
 	}
   ]
 }
