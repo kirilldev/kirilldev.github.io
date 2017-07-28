@@ -108,10 +108,17 @@
 	},
 	{
 	  "id" : 16,
-	  "title" : "Mythical Hydra Button",
+	  "title" : "Count 1’s in a sorted binary array",
 	  "tags": ["logarithmic-time", "search", "arrays"],
-	  "description": "Given a binary array sorted in non-increasing order, count the number of 1’s in it.",
+	  "description": "Given a binary array sorted in decreasing order, count the number of 1’s in it. For example, for input <mark>[1, 1, 0, 0, 0]</mark>, result will be <mark>2</mark>.",
 	  "solutions" : ["js/count-ones-in-sorted-binary-array.js"]
+	},
+	{
+	  "id" : 17,
+	  "title" : "Next larger number in array",
+	  "tags": ["arrays"],
+	  "description": "Given an array which have distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1",
+	  "solutions" : []
 	}
   ]
 }
