@@ -105,6 +105,13 @@
 	  "description" : "Create a button that is destroyed by clicking it, but two new buttons are created in it's place.",
 	  "tags" : ["frontend"],
 	  "solutions" : ["js/mythical-hudra.js"]
+	},
+	{
+	  "id" : 16,
+	  "title" : "Mythical Hydra Button",
+	  "tags": ["logarithmic-time", "search", "arrays"],
+	  "description": "Given a binary array sorted in non-increasing order, count the number of 1’s in it.",
+	  "solutions" : ["js/count-ones-in-sorted-binary-array.js"]
 	}
   ]
 }
