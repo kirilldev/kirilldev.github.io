@@ -9,8 +9,16 @@
       "label" : "Tree"
     },
     {
+      "value" : "n-log-n-time",
+      "label" : "O(n log n) Time"
+    },
+    {
       "value" : "linear-time",
-      "label" : "Linear Time"
+      "label" : "O(n) Linear Time"
+    },
+    {
+      "value" : "logarithmic-time",
+      "label" : "O(log n) Logarithmic Time"
     },
     {
       "value" : "in-place",
