@@ -5,6 +5,6 @@
 <problem *ngIf="selectedProblem" [problem]="selectedProblem"></problem>
 
 <div *ngIf="!selectedProblem && !notFoundProblem">
-    <filter [sortOrderChanged]="sortOrderChanged"></filter>
+    <filter [sortOrderChanged]="sortOrderChanged" [filterChanged]="filterChanged"></filter>
     <problem *ngFor="let data of visibleProblems" [problem]="data"></problem>
 </div>

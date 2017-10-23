@@ -5,6 +5,10 @@
       "label" : "Arrays"
     },
     {
+      "value" : "tree",
+      "label" : "Tree"
+    },
+    {
       "value" : "linear-time",
       "label" : "Linear Time"
     },

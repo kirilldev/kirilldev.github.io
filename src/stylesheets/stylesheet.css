@@ -192,6 +192,7 @@ a {
 
 .Problem {
   border-bottom: solid 1px #eff0f1;
+    position: relative;
 }
 
 .Problem__name {

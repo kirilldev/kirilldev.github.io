@@ -1,4 +1,5 @@
 <div class="Problem">
+    <div (click)="copyToClipboard(problem.id)" class="clickable" style="position: absolute; right: 0; top:8px; text-decoration: underline" title="Click to copy direct link"><img style="width: 16px; border-bottom: 1px solid; padding-bottom: 2px; position: relative; top: 3px" src="https://www.shareicon.net/download/2015/08/15/85803_link_512x512.png">link</div>
     <h3 class="clickable Problem__name" title="click to see the solution" (click)="showSolution()">
         {{problem.title}}
     </h3>

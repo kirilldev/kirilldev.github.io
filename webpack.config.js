@@ -57,7 +57,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.js$/,
-                exclude: /(node_modules|thirdparty)/,
+                exclude: /(node_modules)/,
                 loader: 'babel',
                 query: {
                     presets: ['es2015']
@@ -73,7 +73,7 @@ module.exports = {
             }
         ],
 
-        noParse: '(thirparty|angular|jquery|angular-route|angular-animate)'
+        noParse: '(angular|jquery|angular-route|angular-animate)'
     },
 
     plugins: plugins

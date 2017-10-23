@@ -1,10 +1,15 @@
 <div class="Filter">
-    <div style="width: 100%; margin-right: 15px">
-        <ng-select [options]="options" multiple="true" placeholder="Filter by tags"></ng-select>
+    <div style="width: 100%; margin-right: 15px; background-color: white; min-height: 38px; border: 1px solid;">
+        <div *ngIf="!selectedOptions.length"
+             style="position: absolute; padding-left: 10px; padding-top: 5px; color: #9a9a9a">Filter by tags (logical AND mode)</div>
+        <ng-select [options]="options"
+                   multiple="true"
+                   (deselected)="onRemoved($event)"
+                   (selected)="onSelected($event)"></ng-select>
     </div>
     <div class="Switcher">
 		<span *ngFor="let opt of sortOptions" class="Switcher__btn"
-		      (click)="reorder(opt)" [ngClass]="{'active': opt === sortOrder.name}">
+              (click)="reorder(opt)" [ngClass]="{'active': opt === sortOrder.name}">
 			{{opt}}&nbsp;<i *ngIf="opt === sortOrder.name">{{sortMarker}}</i>
 		</span>
     </div>
