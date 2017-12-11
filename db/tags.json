@@ -5,6 +5,10 @@
       "label" : "Arrays"
     },
     {
+      "value" : "linked-list",
+      "label" : "LinkedList"
+    },
+    {
       "value" : "tree",
       "label" : "Tree"
     },

@@ -1,131 +1,253 @@
 ﻿{
-  "problems" : [
+  "problems": [
     {
-	  "id" : 1,
-      "title" : "Move Zeroes In Array",
-      "description" : "Given an array of numbers, write a function to move all <mark>0</mark>'s to the end of it while maintaining the relative order of the non-zero elements. For example, given <mark>nums = [0, 1, 0, 3, 12]</mark>, after calling your function, <mark>nums</mark> should be <mark>[1, 3, 12, 0, 0]</mark>. Do it in-place. Minimize the total number of operations.",
-      "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
-      "solutions" : ["js/move-zeroes.js"]
+      "id": 1,
+      "title": "Move Zeroes In Array",
+      "description": "Given an array of numbers, write a function to move all <mark>0</mark>'s to the end of it while maintaining the relative order of the non-zero elements. For example, given <mark>nums = [0, 1, 0, 3, 12]</mark>, after calling your function, <mark>nums</mark> should be <mark>[1, 3, 12, 0, 0]</mark>. Do it in-place. Minimize the total number of operations.",
+      "tags": [
+        "arrays",
+        "linear-time",
+        "in-place",
+        "two-pointers"
+      ],
+      "solutions": [
+        "js/move-zeroes.js"
+      ]
     },
-	{
-	  "id" : 2,
-	  "title" : "Reverse Array Order",
-      "description" : "Given an array of numbers, write a function to reverse an order of elements in it. For example, given <mark>nums = [1, 2, 3, 4, 5]</mark>, after calling your function, <mark>nums</mark> should be <mark>[5, 4, 3, 2, 1]</mark>. Do it in-place.",
-	  "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
-	  "solutions" : ["js/reverse-array-order.js"]
-	},
-	{
-      "id" : 3,
-	  "title" : "Reverse Word Order",
-	  "description" : "Do it in place.",
-	  "tags" : ["arrays", "linear-time", "in-place", "two-pointers"],
-	  "solutions" : ["js/reverse-word-order.js"]
-	},
-	{
-      "id" : 4,
-	  "title" : "Implement Quicksort",
-	  "description" : "Given array of nums, sort it using quicksort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
-	  "tags" : ["arrays", "n-log-n-time", "in-place", "two-pointers", "recursive"],
-	  "solutions" : ["js/implement-quicksort.js"]
-	},
-	{
-      "id" : 5,
-	  "title" : "Implement Merge Sort",
-	  "description" : "Given array of nums, sort it using merge sort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
-	  "tags" : ["arrays", "n-log-n-time", "two-pointers", "recursive"],
-	  "solutions" : ["js/implement-quicksort.js"]
-	},
-	{
-      "id" : 6,
-	  "title" : "Find Missing Number In a Sorted Array",
-	  "description" : "Given an array. For example, given <mark>nums = [1, 2, 3, 5]</mark>",
-	  "tags" : ["arrays", "logarithmic-time", "in-place", "two-pointers"],
-	  "solutions" : ["js/find-absent-number-in-range.js"]
-	},
-	{
-      "id" : 7,
-	  "title" : "Find Sum of all left leaves in a Binary Tree",
-	  "description" : "Given a binary tree, find sum of all left leaves in it. For example, sum of all left leaves of the tree on the <a href=\"src/img/bst.svg\">image</a> is 5 + 23 = 27.",
-	  "tags" : ["tree", "linear-time", "recursive"],
-	  "solutions" : ["js/find-sum-of-left-tree-leaves.js"]
-	},
-	{
-      "id" : 8,
-	  "title" : "Find Sum of All Nodes at given depth of a Binary Tree",
-	  "description" : "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/bst.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
-	  "tags" : ["tree"],
-	  "solutions" : ["js/find-sum-of-nodes-at-depth.js"]
-	},
-	{
-      "id" : 9,
-	  "title" : "Check If two Binary Tree are Identical",
-	  "description" : "Given heads oof two Binary Trees, check if trees are identical. Two trees are identical when they have same data and arrangement of data is also same.",
-	  "tags" : ["tree"],
-	  "solutions" : ["js/is-trees-are-identical.js"]
-	},
-	{
-      "id" : 10,
-	  "title" : "Find Longest Increasing Subsequence in Array",
-	  "description" : "Given an array of numbers, find the longest increasing sub-subsequence in which all elements will be in the sorted order. For example, given [3, 4, -1, 0, 6, 2, 3] the longest increasing subsequence will be [-1, 0, 2, 3]",
-	  "tags" : ["arrays"],
-	  "solutions" : ["js/find-longest-increasing-subsequence-in-array.js"]
-	},
-	{
-	  "id" : 11,
-	  "title" : "Find All Possible Combinations",
-	  "description" : "Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.",
-	  "tags" : ["arrays"],
-	  "solutions" : ["js/find-all-possible-combinations.js"]
-	},
-	{
-	  "id" : 12,
-	  "title" : "Convert Sorted Array to Binary Search Tree",
-	  "description" : "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.",
-	  "tags" : ["arrays", "tree"],
-	  "solutions" : ["js/create-bst-from-sorted-array.js"]
-	},
-	{
-	  "id" : 13,
-	  "title" : "Find Majority Character in a String",
-	  "description" : "Given the string, find majority character. A majority character in a string of size n is an character that appears more than n/2 times.",
-	  "tags" : ["arrays", "search", "linear-time"],
-	  "solutions" : ["js/find-majority-character.js"]
-	},
-	{
-	  "id" : 14,
-	  "title" : "Minimum Size Subarray Sum",
-	  "description" : "Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.For example, given the array <mark>[2,3,1,2,4,3]</mark> and s = 7,the subarray <mark>[4,3]</mark> has the minimal length under the problem constraint.",
-	  "tags" : ["arrays", "two-pointers", "linear-time"],
-	  "solutions" : ["js/minimum-size-contigious-subarray.js"]
-		
-	},
-	{
-	  "id" : 15,
-	  "title" : "Mythical Hydra Button",
-	  "description" : "Create a button that is destroyed by clicking it, but two new buttons are created in it's place.",
-	  "tags" : ["frontend"],
-	  "solutions" : ["js/mythical-hudra.js"]
-	},
-	{
-	  "id" : 16,
-	  "title" : "Count 1’s in a sorted binary array",
-	  "tags": ["logarithmic-time", "search", "arrays"],
-	  "description": "Given a binary array sorted in decreasing order, count the number of 1’s in it. For example, for input <mark>[1, 1, 0, 0, 0]</mark>, result will be <mark>2</mark>.",
-	  "solutions" : ["js/count-ones-in-sorted-binary-array.js"]
-	},
-	{
-	  "id" : 17,
-	  "title" : "Next larger number in array",
-	  "tags": ["arrays"],
-	  "description": "Given an array which have distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1",
-	  "solutions" : []
-	},
-	{
-	  "id" : 18,
-	  "title" : "Add Two Linked List Numbers (Reversed)",
-	  "tags": ["linear-time"],
-	  "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
-	  "solutions" : ["js/sum-numbers-linked-list-reverse.js"]
-	}
+    {
+      "id": 2,
+      "title": "Reverse Array Order",
+      "description": "Given an array of numbers, write a function to reverse an order of elements in it. For example, given <mark>nums = [1, 2, 3, 4, 5]</mark>, after calling your function, <mark>nums</mark> should be <mark>[5, 4, 3, 2, 1]</mark>. Do it in-place.",
+      "tags": [
+        "arrays",
+        "linear-time",
+        "in-place",
+        "two-pointers"
+      ],
+      "solutions": [
+        "js/reverse-array-order.js"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Reverse Word Order",
+      "description": "Do it in place.",
+      "tags": [
+        "arrays",
+        "linear-time",
+        "in-place",
+        "two-pointers"
+      ],
+      "solutions": [
+        "js/reverse-word-order.js"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Implement Quicksort",
+      "description": "Given array of nums, sort it using quicksort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
+      "tags": [
+        "arrays",
+        "n-log-n-time",
+        "in-place",
+        "two-pointers",
+        "recursive"
+      ],
+      "solutions": [
+        "js/implement-quicksort.js"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Implement Merge Sort",
+      "description": "Given array of nums, sort it using merge sort. For example, given <mark>nums = [1,-10, 4, 3]</mark> after calling your function <mark>nums</mark> should be <mark>[-10, 1, 3, 4]</mark>.",
+      "tags": [
+        "arrays",
+        "n-log-n-time",
+        "two-pointers",
+        "recursive"
+      ],
+      "solutions": [
+        "js/implement-quicksort.js"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Find Missing Number In a Sorted Array",
+      "description": "Given an array. For example, given <mark>nums = [1, 2, 3, 5]</mark>",
+      "tags": [
+        "arrays",
+        "logarithmic-time",
+        "in-place",
+        "two-pointers"
+      ],
+      "solutions": [
+        "js/find-absent-number-in-range.js"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Find Sum of all left leaves in a Binary Tree",
+      "description": "Given a binary tree, find sum of all left leaves in it. For example, sum of all left leaves of the tree on the <a href=\"src/img/bst.svg\">image</a> is 5 + 23 = 27.",
+      "tags": [
+        "tree",
+        "linear-time",
+        "recursive"
+      ],
+      "solutions": [
+        "js/find-sum-of-left-tree-leaves.js"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Find Sum of All Nodes at given depth of a Binary Tree",
+      "description": "Given a binary tree, find sum of all nodes at the given depth. For example, sum of nodes at the <mark>depth = 2</mark> of the tree on the <a href=\"src/img/bst.svg\">image</a> is <mark>18 + 31 = 49</mark>.",
+      "tags": [
+        "tree"
+      ],
+      "solutions": [
+        "js/find-sum-of-nodes-at-depth.js"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Check If two Binary Tree are Identical",
+      "description": "Given heads oof two Binary Trees, check if trees are identical. Two trees are identical when they have same data and arrangement of data is also same.",
+      "tags": [
+        "tree"
+      ],
+      "solutions": [
+        "js/is-trees-are-identical.js"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Find Longest Increasing Subsequence in Array",
+      "description": "Given an array of numbers, find the longest increasing sub-subsequence in which all elements will be in the sorted order. For example, given [3, 4, -1, 0, 6, 2, 3] the longest increasing subsequence will be [-1, 0, 2, 3]",
+      "tags": [
+        "arrays"
+      ],
+      "solutions": [
+        "js/find-longest-increasing-subsequence-in-array.js"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Find All Possible Combinations",
+      "description": "Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.",
+      "tags": [
+        "arrays"
+      ],
+      "solutions": [
+        "js/find-all-possible-combinations.js"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "description": "Given an array where elements are sorted in ascending order, convert it to a height balanced BST.",
+      "tags": [
+        "arrays",
+        "tree"
+      ],
+      "solutions": [
+        "js/create-bst-from-sorted-array.js"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Find Majority Character in a String",
+      "description": "Given the string, find majority character. A majority character in a string of size n is an character that appears more than n/2 times.",
+      "tags": [
+        "arrays",
+        "search",
+        "linear-time"
+      ],
+      "solutions": [
+        "js/find-majority-character.js"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Minimum Size Subarray Sum",
+      "description": "Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum ≥ s. If there isn't one, return 0 instead.For example, given the array <mark>[2,3,1,2,4,3]</mark> and s = 7,the subarray <mark>[4,3]</mark> has the minimal length under the problem constraint.",
+      "tags": [
+        "arrays",
+        "two-pointers",
+        "linear-time"
+      ],
+      "solutions": [
+        "js/minimum-size-contigious-subarray.js"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Mythical Hydra Button",
+      "description": "Create a button that is destroyed by clicking it, but two new buttons are created in it's place.",
+      "tags": [
+        "frontend"
+      ],
+      "solutions": [
+        "js/mythical-hudra.js"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Count 1’s in a sorted binary array",
+      "tags": [
+        "logarithmic-time",
+        "search",
+        "arrays"
+      ],
+      "description": "Given a binary array sorted in decreasing order, count the number of 1’s in it. For example, for input <mark>[1, 1, 0, 0, 0]</mark>, result will be <mark>2</mark>.",
+      "solutions": [
+        "js/count-ones-in-sorted-binary-array.js"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Next larger number in array",
+      "tags": [
+        "arrays"
+      ],
+      "description": "Given an array which have distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1",
+      "solutions": []
+    },
+    {
+      "id": 18,
+      "title": "Add Two Linked List Numbers (Reversed)",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
+      "solutions": [
+        "js/sum-numbers-linked-list-reverse.js"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Add Two Linked List Numbers",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "You are given two non-empty linked lists representing two non-negative integers. Each node contains a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
+      "solutions": [
+        "js/sum-numbers-linked-list.js"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Is Linked List Palindrome",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "Given a singly linked list, determine if it is a palindrome.",
+      "solutions": [
+        "js/linked-list-is-palindrome.js"
+      ]
+    }
   ]
 }
