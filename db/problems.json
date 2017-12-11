@@ -248,6 +248,43 @@
       "solutions": [
         "js/linked-list-is-palindrome.js"
       ]
+    },
+    {
+      "id": 21,
+      "title": "Reverse Linked List",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "Reverse a singly linked list.",
+      "solutions": [
+        "js/reverse-inked-list.js"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Merge Two Sorted Linked Lists",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.",
+      "solutions": [
+        "js/merge-two-sorted-linked-lists.js"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Group By Odd And Even Linked List",
+      "tags": [
+        "linear-time",
+        "linked-list",
+        "two-pointers"
+      ],
+      "description": "Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes. The program should run in O(1) space complexity and O(n) time complexity.",
+      "solutions": [
+        "js/odd-and-even-linked-list.js"
+      ]
     }
   ]
 }
