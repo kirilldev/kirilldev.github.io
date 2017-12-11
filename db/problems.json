@@ -1,4 +1,4 @@
-{
+﻿{
   "problems" : [
     {
 	  "id" : 1,
@@ -119,6 +119,13 @@
 	  "tags": ["arrays"],
 	  "description": "Given an array which have distinct elements, the task is to find the next greater element for each element of the array in order of their appearance in the array. If no such element exists, output -1",
 	  "solutions" : []
+	},
+	{
+	  "id" : 18,
+	  "title" : "Add Two Linked List Numbers (Reversed)",
+	  "tags": ["linear-time"],
+	  "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
+	  "solutions" : ["js/sum-numbers-linked-list-reverse.js"]
 	}
   ]
 }
