@@ -285,6 +285,30 @@
       "solutions": [
         "js/odd-and-even-linked-list.js"
       ]
+    },
+    {
+      "id": 24,
+      "title": "Rotate Linked List Right",
+      "tags": [
+        "linear-time",
+        "linked-list"
+      ],
+      "description": "Given a list, rotate the list to the right by k places, where k is non-negative.",
+      "solutions": [
+        "js/rotate-right-linked-list.js"
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Delete Given Linked List Node (One param)",
+      "tags": [
+        "constant-time",
+        "linked-list"
+      ],
+      "description": "Write a function to delete a node (except the tail) in a singly linked list, given only access to that node. Supposed the linked list is <mark>1 -> 2 -> 3 -> 4</mark> and you are given the third node with value 3, the linked list should become <mark>1 -> 2 -> 4</mark> after calling your function.",
+      "solutions": [
+        "js/remove-given-linked-list-node.js"
+      ]
     }
   ]
 }

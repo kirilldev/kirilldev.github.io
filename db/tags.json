@@ -25,6 +25,10 @@
       "label" : "O(log n) Logarithmic Time"
     },
     {
+      "value" : "constant-time",
+      "label" : "O(1) Constant Time"
+    },
+    {
       "value" : "in-place",
       "label" : "In Place"
     },
