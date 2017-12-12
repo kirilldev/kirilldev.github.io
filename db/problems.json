@@ -377,6 +377,43 @@
       "solutions": [
         "find-intersection-of-two-linked-lists.js"
       ]
+    },
+    {
+      "id": 31,
+      "title": "Minimum Intersection Index Sum of Arrays",
+      "tags": [
+        "arrays",
+        "linear-time"
+      ],
+      "description": "Given two arrays of strings. Print intersection elements between arrays with the minimal intersection indexes sum. For example, for array <mark>['a', 'b', 'c', 'l', 'd', 'z']</mark> and <mark>['d', 'm', 'c', 'b', 'j', 'z']</mark> answer wil be <mark>['d','c','b']</mark>, because minimum intersection indexes sum in array is 4",
+      "solutions": [
+        "minimum-intersection-index-sum-of-arrays.js"
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Count Subarrays Which Sum Equals K",
+      "tags": [
+        "arrays",
+        "linear-time"
+      ],
+      "description": "Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k. For example, if input <mark>nums = [1,1,1], k = 2</mark> then output must be 2",
+      "solutions": [
+        "count-subarrays-with-sum-equals-k.js"
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Find Longest Increasing Subarray Length",
+      "tags": [
+        "arrays",
+        "linear-time",
+        "constant-memory"
+      ],
+      "description": "Given an unsorted array of integers, find the length of longest continuous increasing subsequence (subarray).",
+      "solutions": [
+        "find-longest-increasing-subarray-len.js"
+      ]
     }
   ]
 }
