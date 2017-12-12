@@ -1,8 +1,14 @@
 <div class="Problem">
     <div (click)="copyToClipboard(problem.id)" class="clickable" style="position: absolute; right: 0; top:8px; text-decoration: underline" title="Click to copy direct link"><img style="width: 16px; border-bottom: 1px solid; padding-bottom: 2px; position: relative; top: 3px" src="https://www.shareicon.net/download/2015/08/15/85803_link_512x512.png">link</div>
-    <h3 class="clickable Problem__name" title="click to see the solution" (click)="showSolution()">
-        {{problem.title}}
-    </h3>
+    <h3 class="Problem__name">{{problem.title}}</h3>
     <p (click)="check($event)" [innerHTML]="problem.description"></p>
+    <p>Solution Code:
+        <a href="" *ngFor="let solution of getSolutionsList(problem)"
+              (click)="showSolution($event, solution.path)"
+              style="padding: 2px 8px; margin-right: 5px;"
+              title="click to see the solution">
+            {{solution.tag}}
+        </a>
+    </p>
     <modal [onClose]="close" [headerText]="problem.title" [modalBody]="showModal" *ngIf="showModal"></modal>
 </div>

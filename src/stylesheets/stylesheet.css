@@ -162,6 +162,12 @@ a {
   }
 }
 
+.LoadingText {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
 .Switcher {
 	display: flex;
 	text-transform: capitalize;

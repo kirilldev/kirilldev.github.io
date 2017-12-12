@@ -11,7 +11,7 @@
         "two-pointers"
       ],
       "solutions": [
-        "js/move-zeroes.js"
+        "move-zeroes.js"
       ]
     },
     {
@@ -25,7 +25,7 @@
         "two-pointers"
       ],
       "solutions": [
-        "js/reverse-array-order.js"
+        "reverse-array-order.js"
       ]
     },
     {
@@ -39,7 +39,7 @@
         "two-pointers"
       ],
       "solutions": [
-        "js/reverse-word-order.js"
+        "reverse-word-order.js"
       ]
     },
     {
@@ -54,7 +54,7 @@
         "recursive"
       ],
       "solutions": [
-        "js/implement-quicksort.js"
+        "implement-quicksort.js"
       ]
     },
     {
@@ -68,7 +68,7 @@
         "recursive"
       ],
       "solutions": [
-        "js/implement-quicksort.js"
+        "implement-quicksort.js"
       ]
     },
     {
@@ -82,7 +82,7 @@
         "two-pointers"
       ],
       "solutions": [
-        "js/find-absent-number-in-range.js"
+        "find-absent-number-in-range.js"
       ]
     },
     {
@@ -95,7 +95,7 @@
         "recursive"
       ],
       "solutions": [
-        "js/find-sum-of-left-tree-leaves.js"
+        "find-sum-of-left-tree-leaves.js"
       ]
     },
     {
@@ -106,7 +106,7 @@
         "tree"
       ],
       "solutions": [
-        "js/find-sum-of-nodes-at-depth.js"
+        "find-sum-of-nodes-at-depth.js"
       ]
     },
     {
@@ -117,7 +117,7 @@
         "tree"
       ],
       "solutions": [
-        "js/is-trees-are-identical.js"
+        "is-trees-are-identical.js"
       ]
     },
     {
@@ -128,7 +128,7 @@
         "arrays"
       ],
       "solutions": [
-        "js/find-longest-increasing-subsequence-in-array.js"
+        "find-longest-increasing-subsequence-in-array.js"
       ]
     },
     {
@@ -139,7 +139,7 @@
         "arrays"
       ],
       "solutions": [
-        "js/find-all-possible-combinations.js"
+        "find-all-possible-combinations.js"
       ]
     },
     {
@@ -151,7 +151,7 @@
         "tree"
       ],
       "solutions": [
-        "js/create-bst-from-sorted-array.js"
+        "create-bst-from-sorted-array.js"
       ]
     },
     {
@@ -164,7 +164,7 @@
         "linear-time"
       ],
       "solutions": [
-        "js/find-majority-character.js"
+        "find-majority-character.js"
       ]
     },
     {
@@ -177,7 +177,7 @@
         "linear-time"
       ],
       "solutions": [
-        "js/minimum-size-contigious-subarray.js"
+        "minimum-size-contigious-subarray.js"
       ]
     },
     {
@@ -188,7 +188,7 @@
         "frontend"
       ],
       "solutions": [
-        "js/mythical-hudra.js"
+        "mythical-hudra.js"
       ]
     },
     {
@@ -201,7 +201,7 @@
       ],
       "description": "Given a binary array sorted in decreasing order, count the number of 1’s in it. For example, for input <mark>[1, 1, 0, 0, 0]</mark>, result will be <mark>2</mark>.",
       "solutions": [
-        "js/count-ones-in-sorted-binary-array.js"
+        "count-ones-in-sorted-binary-array.js"
       ]
     },
     {
@@ -222,7 +222,7 @@
       ],
       "description": "You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
       "solutions": [
-        "js/sum-numbers-linked-list-reverse.js"
+        "sum-numbers-linked-list-reverse.js"
       ]
     },
     {
@@ -234,7 +234,7 @@
       ],
       "description": "You are given two non-empty linked lists representing two non-negative integers. Each node contains a single digit. Add the two numbers and return it as a linked list. You may assume the two numbers do not contain any leading zero, except the number 0 itself.",
       "solutions": [
-        "js/sum-numbers-linked-list.js"
+        "sum-numbers-linked-list.js"
       ]
     },
     {
@@ -246,7 +246,7 @@
       ],
       "description": "Given a singly linked list, determine if it is a palindrome.",
       "solutions": [
-        "js/linked-list-is-palindrome.js"
+        "linked-list-is-palindrome.js"
       ]
     },
     {
@@ -258,7 +258,7 @@
       ],
       "description": "Reverse a singly linked list.",
       "solutions": [
-        "js/reverse-inked-list.js"
+        "reverse-inked-list.js"
       ]
     },
     {
@@ -270,7 +270,7 @@
       ],
       "description": "Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.",
       "solutions": [
-        "js/merge-two-sorted-linked-lists.js"
+        "merge-two-sorted-linked-lists.js"
       ]
     },
     {
@@ -283,7 +283,7 @@
       ],
       "description": "Given a singly linked list, group all odd nodes together followed by the even nodes. Please note here we are talking about the node number and not the value in the nodes. The program should run in O(1) space complexity and O(n) time complexity.",
       "solutions": [
-        "js/odd-and-even-linked-list.js"
+        "odd-and-even-linked-list.js"
       ]
     },
     {
@@ -295,7 +295,7 @@
       ],
       "description": "Given a list, rotate the list to the right by k places, where k is non-negative.",
       "solutions": [
-        "js/rotate-right-linked-list.js"
+        "rotate-right-linked-list.js"
       ]
     },
     {
@@ -307,7 +307,7 @@
       ],
       "description": "Write a function to delete a node (except the tail) in a singly linked list, given only access to that node. Supposed the linked list is <mark>1 -> 2 -> 3 -> 4</mark> and you are given the third node with value 3, the linked list should become <mark>1 -> 2 -> 4</mark> after calling your function.",
       "solutions": [
-        "js/remove-given-linked-list-node.js"
+        "remove-given-linked-list-node.js"
       ]
     },
     {
@@ -319,7 +319,7 @@
       ],
       "description": "Given a sorted linked list, delete all duplicates such that each element appear only once.",
       "solutions": [
-        "js/remove-duplicates-from-sorted-linked-list.js"
+        "remove-duplicates-from-sorted-linked-list.js"
       ]
     },
     {
@@ -331,7 +331,7 @@
       ],
       "description": "Given a linked list, swap every two adjacent nodes and return its head. For example, Given <mark>1->2->3->4</mark>, you should return the list as <mark>2->1->4->3</mark>. Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.",
       "solutions": [
-        "js/linked-list-swap-nodes-in-pairs.js"
+        "linked-list-swap-nodes-in-pairs.js"
       ]
     }
   ]

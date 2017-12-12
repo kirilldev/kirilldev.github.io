@@ -8,7 +8,6 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="src/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="src/stylesheets/github-light.css" media="screen">
-    <script src="dist/bundle.js"></script>
     <style>
       ng-select > div.below {
         border: 0 !important;
@@ -28,8 +27,15 @@
       </h1>
       <h2 class="project-tagline">algorithm, interview, coding</h2>
     </section>
+
+    <script src="dist/bundle.js"></script>
+
     <section class="main-content">
-      <app-main>Loading...</app-main>
+      <app-main>
+        <div class="LoadingText">
+          Loading Problems...
+        </div>
+      </app-main>
     </section>
   </body>
 </html>
