@@ -29,8 +29,8 @@
       "label" : "O(1) Constant Time"
     },
     {
-      "value" : "in-place",
-      "label" : "In Place"
+      "value" : "constant-memory",
+      "label" : "O(1) Constant Memory"
     },
     {
       "value" : "two-pointers",

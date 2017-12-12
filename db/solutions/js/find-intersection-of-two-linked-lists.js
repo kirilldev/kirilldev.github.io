@@ -6,8 +6,29 @@
  * }
  */
 
+// O(1) memory solution
+function getIntersectionNodeO1(headA, headB) {
+    const length = (n, l=0) => n ? length(n.next, l + 1) : l;
+    let aLen = length(headA);
+    let bLen = length(headB);
+
+    while (headA !== headB) {
+        if (aLen >= bLen) {
+            headA = headA.next;
+            aLen--;
+        }
+
+        if ((aLen + 1) <= bLen) {
+            headB = headB.next;
+            bLen--;
+        }
+    }
+
+    return headA;
+}
+
 // O(n) memory solution
-function getIntersectionNode(headA, headB, set = new Set()) {
+function getIntersectionNodeOn(headA, headB, set = new Set()) {
     if (!headA && !headB) {
         return null;
     }
@@ -27,7 +48,5 @@ function getIntersectionNode(headA, headB, set = new Set()) {
     const nextA = headA ? headA.next : null;
     const nextB = headB ? headB.next : null;
 
-    return getIntersectionNode(nextA, nextB, set);
+    return getIntersectionNodeOn(nextA, nextB, set);
 }
-
-// TODO: O(1) memory solution
