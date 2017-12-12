@@ -309,6 +309,30 @@
       "solutions": [
         "js/remove-given-linked-list-node.js"
       ]
+    },
+    {
+      "id": 26,
+      "title": "Remove Duplicates from Sorted LinkedList",
+      "tags": [
+        "constant-time",
+        "linked-list"
+      ],
+      "description": "Given a sorted linked list, delete all duplicates such that each element appear only once.",
+      "solutions": [
+        "js/remove-duplicates-from-sorted-linked-list.js"
+      ]
+    },
+    {
+      "id": 27,
+      "title": "LinkedList: Swap Nodes in Pairs",
+      "tags": [
+        "constant-time",
+        "linked-list"
+      ],
+      "description": "Given a linked list, swap every two adjacent nodes and return its head. For example, Given <mark>1->2->3->4</mark>, you should return the list as <mark>2->1->4->3</mark>. Your algorithm should use only constant space. You may not modify the values in the list, only nodes itself can be changed.",
+      "solutions": [
+        "js/linked-list-swap-nodes-in-pairs.js"
+      ]
     }
   ]
 }
