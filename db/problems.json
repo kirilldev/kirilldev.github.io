@@ -451,6 +451,43 @@
       "solutions": [
         "jump-game.js"
       ]
+    },
+    {
+      "id": 37,
+      "title": "Best Time to Buy and Sell Stock",
+      "tags": [
+        "arrays",
+        "linear-time",
+        "constant-memory"
+      ],
+      "description": "Say you have an array for which the ith element is the price of a given stock on day i. If you were only permitted to complete at most one transaction (ie, buy one and sell one share of the stock), design an algorithm to find the maximum profit.",
+      "solutions": [
+        "best-time-to-buy-and-sell-stock.js"
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Hamming Distance",
+      "tags": [
+        "bit-manipulation",
+        "constant-time",
+        "constant-memory"
+      ],
+      "description": "The Hamming distance between two integers is the number of positions at which the corresponding bits are different. Given two integers x and y, calculate the Hamming distance.",
+      "solutions": [
+        "two-digits-hamming-distance.js"
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Course Schedule II",
+      "tags": [
+        "graph"
+      ],
+      "description": "There are a total of n courses you have to take, labeled from 0 to n - 1. Some courses may have prerequisites, for example to take course 0 you have to first take course 1, which is expressed as a pair: [0,1] Given the total number of courses and a list of prerequisite pairs, return the ordering of courses you should take to finish all courses. There may be multiple correct orders, you just need to return one of them. If it is impossible to finish all courses, return an empty array.",
+      "solutions": [
+        "course-schedule-2.js"
+      ]
     }
   ]
 }

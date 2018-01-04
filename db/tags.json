@@ -39,6 +39,14 @@
     {
       "value" : "recursive",
       "label" : "Recursive"
+    },
+    {
+      "value" : "bit-manipulation",
+      "label" : "Bit manipulation"
+    },
+    {
+      "value" : "graph",
+      "label" : "Graph"
     }
   ]
 }
