@@ -540,6 +540,29 @@
       "solutions": [
         "climbing-stairs-find-all-variations.js"
       ]
+    },
+    {
+      "id": 44,
+      "title": "Min Cost Climbing Stairs",
+      "tags": [
+        "linear-time",
+        "constant-memory"
+      ],
+      "description": "On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed). Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach the top of the floor, and you can either start from the step with index 0, or the step with index 1.",
+      "solutions": [
+        "min-cost-climbing-stairs.js"
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Maximum Sum Subarray",
+      "tags": [
+        "linear-time"
+      ],
+      "description": "Find the contiguous subarray within an array (containing at least one number) which has the largest sum. For example, given the array [-2,1,-3,4,-1,2,1,-5,4], the contiguous subarray [4,-1,2,1] has the largest sum = 6.",
+      "solutions": [
+        "maximum-sum-subarray.js"
+      ]
     }
   ]
 }
