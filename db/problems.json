@@ -515,6 +515,32 @@
       "solutions": [
         "next-permutation-in-array.js"
       ]
+    },
+    {
+      "id": 42,
+      "title": "Find Minimum Path Length in Triangle",
+      "tags": [
+        "linear-time",
+        "arrays",
+        "linear-memory"
+      ],
+      "description": "Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below. For example, given the following triangle <mark>[[2], [3,4], [6,5,7], [4,1,8,3]]</mark> The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).",
+      "solutions": [
+        "find-path-in-triangle.js"
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Find Amount of Ways To Climb Stairs",
+      "tags": [
+        "linear-time",
+        "constant-memory"
+      ],
+      "description": "You are climbing a stair case. It takes n steps to reach to the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Note: Given n will be a positive integer.",
+      "solutions": [
+        "climbing-stairs-find-all-variations.js"
+      ]
     }
   ]
 }
+
