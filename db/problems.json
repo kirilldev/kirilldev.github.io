@@ -563,6 +563,31 @@
       "solutions": [
         "maximum-sum-subarray.js"
       ]
+    },
+    {
+      "id": 46,
+      "title": "Range Sum Lookup O(1) Data Structure",
+      "tags": [
+        "arrays",
+        "linear-memory"
+      ],
+      "description": "Write DS that has as a constructor parameter integer array nums and has rangeSum(i, j), that for the constant time returns elements sum between indices i and j (i ≤ j), inclusive.",
+      "solutions": [
+        "range-sum-constant-lookup.js"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Find Amount of Possible Paths",
+      "tags": [
+        "arrays",
+        "linear-memory",
+        "linear-time"
+      ],
+      "description": "A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below). The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).",
+      "solutions": [
+        "find-amount-of-possible-paths.js"
+      ]
     }
   ]
 }
