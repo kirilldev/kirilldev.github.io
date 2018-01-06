@@ -584,9 +584,22 @@
         "linear-memory",
         "linear-time"
       ],
-      "description": "A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below). The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).",
+      "description": "A robot is located at the top-left corner of a m x n grid. The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid.",
       "solutions": [
         "find-amount-of-possible-paths.js"
+      ]
+    },
+    {
+      "id": 47,
+      "title": "All Possible Paths With Obstacles",
+      "tags": [
+        "arrays",
+        "linear-memory",
+        "linear-time"
+      ],
+      "description": "A robot is located at the top-left corner of a m x n grid. The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid. 1 is not walkable cell 0 is walkable",
+      "solutions": [
+        "find-amount-of-possible-paths-2.js"
       ]
     }
   ]
