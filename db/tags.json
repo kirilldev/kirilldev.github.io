@@ -47,6 +47,10 @@
     {
       "value" : "graph",
       "label" : "Graph"
+    },
+    {
+      "value" : "dp",
+      "label" : "Dynamic programming"
     }
   ]
 }

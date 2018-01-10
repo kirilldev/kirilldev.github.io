@@ -522,6 +522,7 @@
       "tags": [
         "linear-time",
         "arrays",
+        "dp",
         "linear-memory"
       ],
       "description": "Given a triangle, find the minimum path sum from top to bottom. Each step you may move to adjacent numbers on the row below. For example, given the following triangle <mark>[[2], [3,4], [6,5,7], [4,1,8,3]]</mark> The minimum path sum from top to bottom is 11 (i.e., 2 + 3 + 5 + 1 = 11).",
@@ -534,6 +535,7 @@
       "title": "Find Amount of Ways To Climb Stairs",
       "tags": [
         "linear-time",
+        "dp",
         "constant-memory"
       ],
       "description": "You are climbing a stair case. It takes n steps to reach to the top. Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top? Note: Given n will be a positive integer.",
@@ -546,6 +548,7 @@
       "title": "Min Cost Climbing Stairs",
       "tags": [
         "linear-time",
+        "dp",
         "constant-memory"
       ],
       "description": "On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed). Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach the top of the floor, and you can either start from the step with index 0, or the step with index 1.",
@@ -581,6 +584,7 @@
       "title": "Find Amount of Possible Paths",
       "tags": [
         "arrays",
+        "dp",
         "linear-memory",
         "linear-time"
       ],
@@ -594,6 +598,7 @@
       "title": "All Possible Paths With Obstacles",
       "tags": [
         "arrays",
+        "dp",
         "linear-memory",
         "linear-time"
       ],
@@ -613,6 +618,17 @@
       "description": "A sequence of number is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same. For example, these are arithmetic sequence: <mark>1, 3, 5, 7, 9</mark>  <mark>7, 7, 7, 7</mark> The function should return the number of arithmetic slices in the array A.",
       "solutions": [
         "count-arithmetic-slices.js"
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Coin Change Infinite ",
+      "tags": [
+        "dp"
+      ],
+      "description": "You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1. Example 1: coins = [1, 2, 5], amount = 11 return 3 (11 = 5 + 5 + 1) Example 2: coins = [2], amount = 3 return -1. Note:  You may assume that you have an infinite number of each kind of coin.",
+      "solutions": [
+        "coin-change-infinite.js"
       ]
     }
   ]
