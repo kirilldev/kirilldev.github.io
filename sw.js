@@ -1,7 +1,7 @@
-const CACHE_NAME = 'app_core_cache_v' + version;
-
 const criticalResources = [
     '/dist/bundle.js',
+    '/db/tags.json',
+    '/db/problems.json',
     '/'
 ];
 
@@ -18,7 +18,17 @@ self.addEventListener('install', function (event) {
 self.addEventListener('fetch', function (event) {
     function proxy() {
         return caches.match(event.request).then(function (cachedResponse) {
-            return cachedResponse || fetch(event.request);
+            if (!event.request.url.startsWith('/db/')) {
+                return cachedResponse || fetch(event.request);
+            }
+
+            return new Promise(resolve => {
+                fetch(event.request)
+                    .then(response => resolve(response))
+                    .catch(e => resolve(cachedResponse));
+
+                setTimeout(() => resolve(cachedResponse), 3000);
+            });
         })
     }
 
