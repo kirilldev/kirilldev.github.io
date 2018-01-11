@@ -1,4 +1,5 @@
 const CACHE_NAME = 'resources_cache';
+const waitTime = 5000;
 
 const criticalResources = [
     '/dist/bundle.js',
@@ -34,7 +35,7 @@ self.addEventListener('fetch', function (event) {
                     })
                     .catch(e => resolve(cachedResponse));
 
-                setTimeout(() => resolve(cachedResponse), 3000);
+                setTimeout(() => resolve(cachedResponse), waitTime);
             });
         })
     }
