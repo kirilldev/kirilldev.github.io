@@ -1,3 +1,5 @@
+const CACHE_NAME = 'resources_cache';
+
 const criticalResources = [
     '/dist/bundle.js',
     '/db/tags.json',
@@ -24,7 +26,12 @@ self.addEventListener('fetch', function (event) {
 
             return new Promise(resolve => {
                 fetch(event.request)
-                    .then(response => resolve(response))
+                    .then(response => {
+                        caches.open(CACHE_NAME).then(cache => {
+                            cache.put(event.request, response.clone());
+                            resolve(response);
+                        });
+                    })
                     .catch(e => resolve(cachedResponse));
 
                 setTimeout(() => resolve(cachedResponse), 3000);
