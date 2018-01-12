@@ -650,6 +650,7 @@
       ],
       "description": "You are given coins of different denominations and a total amount of money. Write a function to compute the number of combinations that make up that amount. You may assume that you have infinite number of each kind of coin. the answer is guaranteed to fit into signed 32-bit integer",
       "solutions": [
+        "coin-change-combinations.js"
       ]
     }
   ]
