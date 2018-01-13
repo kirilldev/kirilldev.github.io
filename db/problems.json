@@ -652,6 +652,18 @@
       "solutions": [
         "coin-change-combinations.js"
       ]
+    },
+    {
+      "id": 53,
+      "title": "Maximal Square In Matrix",
+      "tags": [
+        "dp",
+        "linear-time"
+      ],
+      "description": "Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.",
+      "solutions": [
+        "find-max-square-in-matrix.js"
+      ]
     }
   ]
 }
