@@ -16,8 +16,6 @@ self.addEventListener('install', function (event) {
 
 self.addEventListener('fetch', function (event) {
     function proxy() {
-        console.log(event.request.url);
-
         return caches.match(event.request).then(function (cachedResponse) {
             if (!event.request.url.endsWith(problemsJson) &&
                 !event.request.url.endsWith(tagsJson)) {
