@@ -21,6 +21,8 @@ self.addEventListener('install', function (event) {
 self.addEventListener('fetch', function (event) {
     function proxy() {
         return caches.match(event.request).then(function (cachedResponse) {
+            console.log(event.request.url);
+
             if (!event.request.url.startsWith('/db/')) {
                 return cachedResponse || fetch(event.request);
             }

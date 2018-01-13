@@ -664,6 +664,29 @@
       "solutions": [
         "find-max-square-in-matrix.js"
       ]
+    },
+    {
+      "id": 54,
+      "title": "Largest Rectangle in Histogram",
+      "tags": [
+        "arrays",
+        "linear-time"
+      ],
+      "description": "Given n non-negative integers representing the histogram's bar height where the width of each bar is 1, find the area of largest rectangle in the histogram.",
+      "solutions": [
+        "largest-rectangle-in-histogram.js"
+      ]
+    },
+    {
+      "id": 55,
+      "title": "Maximal Rectangle in Matrix",
+      "tags": [
+        "dp"
+      ],
+      "description": "Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.",
+      "solutions": [
+        "maximal-rectangle-in-matrix.js"
+      ]
     }
   ]
 }
