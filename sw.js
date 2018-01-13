@@ -1,12 +1,8 @@
 const CACHE_NAME = 'resources_cache';
 const waitTime = 5000;
-
-const criticalResources = [
-    '/dist/bundle.js',
-    '/db/tags.json',
-    '/db/problems.json',
-    '/'
-];
+const problemsJson = '/db/problems.json';
+const tagsJson = '/db/tags.json';
+const criticalResources = ['/dist/bundle.js', tagsJson, problemsJson, '/'];
 
 cacheCriticals = () => {
     return caches.open(CACHE_NAME).then(cache => {
@@ -23,7 +19,8 @@ self.addEventListener('fetch', function (event) {
         console.log(event.request.url);
 
         return caches.match(event.request).then(function (cachedResponse) {
-            if (!event.request.url.startsWith('/db/')) {
+            if (!event.request.url.endsWith(problemsJson) &&
+                !event.request.url.endsWith(tagsJson)) {
                 return cachedResponse || fetch(event.request);
             }
 
