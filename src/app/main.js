@@ -5,9 +5,7 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 
 document.addEventListener('DOMContentLoaded', function() {
     if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js').then(function(registration) {
-            console.log('Service worker registration succeeded:', registration);
-        });
+        navigator.serviceWorker.register('/sw.js').then(_ => _);
     }
 
 	platformBrowserDynamic().bootstrapModule(AppModule);
