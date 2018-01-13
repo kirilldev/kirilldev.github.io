@@ -24,6 +24,8 @@ self.addEventListener('fetch', function (event) {
                 return cachedResponse || fetch(event.request);
             }
 
+            console.log(event.request.url);
+
             return new Promise(resolve => {
                 fetch(event.request)
                     .then(response => {
