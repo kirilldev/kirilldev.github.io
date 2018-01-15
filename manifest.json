@@ -1,0 +1,15 @@
+{
+  "display": "standalone",
+  "start_url": "/",
+  "short_name": "Coding Problems",
+  "name": "Coding Problems",
+  "background_color": "#155799",
+  "theme_color": "#155799",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "480x480"
+    }
+  ]
+}
