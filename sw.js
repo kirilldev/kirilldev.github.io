@@ -1,3 +1,4 @@
+// v 1.0.0
 const CACHE_NAME = 'resources_cache';
 const waitTime = 6000;
 const problemsJson = '/db/problems.json';
