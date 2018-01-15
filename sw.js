@@ -1,5 +1,5 @@
 const CACHE_NAME = 'resources_cache';
-const waitTime = 5000;
+const waitTime = 6000;
 const problemsJson = '/db/problems.json';
 const tagsJson = '/db/tags.json';
 const criticalResources = ['/dist/bundle.js', tagsJson, problemsJson, '/'];
